@@ -12,7 +12,8 @@ const PlayerContextProvider = (props)=>{
     const volumeBar = useRef();
 
 
-    const url = "http://localhost:4000";
+    // const url = "http://localhost:4000";
+    const url = "https://anurag-spotify.onrender.com";
 
     const [volume, setVolume] = useState(1);
     const [isMuted, setIsMuted] = useState(false);
